@@ -1,8 +1,8 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/logo-light.svg" width="300">
-        <source media="(prefers-color-scheme: light)" srcset="./docs/images/logo-dark.svg" width="300">
-        <img alt="testplane testing library logo" src="./docs/images/logo-dark.svg" width="300">
+        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/logo-light.svg" width="600">
+        <source media="(prefers-color-scheme: light)" srcset="./docs/images/logo-dark.svg" width="600">
+        <img alt="testplane testing library logo" src="./docs/images/logo-dark.svg" width="600">
     </picture>
 </p>
 
@@ -38,7 +38,7 @@ module.exports = {
 };
 ```
 
-3. ALso, if you are using typescript add to `tsconfig.json` -> `compilerOptions` -> `types` this line `@testplane/testing-library`
+If you are using TypeScript and experiencing issues with testing-library types, you may add the following line to your tsconfig.json
 
 ```json
 {
