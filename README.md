@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-<a href="https://testplane.io"><img src="https://img.shields.io/badge/Docs-Website-6c47ff" alt="Total Downloads"></a>
+<a href="https://testplane.io/docs/v8/guides/how-to-add-testing-library/"><img src="https://img.shields.io/badge/Docs-Website-6c47ff" alt="Total Downloads"></a>
     <a href="https://www.npmjs.com/Яpackage/@testplane/testing-library"><img src="https://img.shields.io/npm/v/@testplane/testing-library.svg" alt="Latest Release"></a>
     <a href="https://github.com/gemini-testing/testplane-testing-library/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@testplane/testing-library.svg" alt="License"></a>
     <a href="https://t.me/testplane"><img src="https://img.shields.io/badge/community-chat-blue?logo=telegram" alt="Community Chat"></a>
