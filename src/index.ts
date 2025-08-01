@@ -34,10 +34,10 @@ declare global {
     }
 }
 
-const DOM_TESTING_LIBRARY_UMD_PATH = path.resolve(
-    __dirname,
-    "../",
-    "./node_modules/@testing-library/dom/dist/@testing-library/dom.umd.js",
+const DOM_TESTING_LIBRARY_UMD_PATH = path.join(
+    require.resolve("@testing-library/dom"),
+    "../../",
+    "dist/@testing-library/dom.umd.js",
 );
 
 const DOM_TESTING_LIBRARY_UMD = fs.readFileSync(DOM_TESTING_LIBRARY_UMD_PATH).toString().replace("define.amd", "false");
