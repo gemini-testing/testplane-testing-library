@@ -21,7 +21,7 @@
   "license": "MIT",
   "homepage": "https://github.com/gemini-testing/testplane-testing-library#readme",
   "peerDependencies": {
-    "testplane": "^8.0.0"
+    "testplane": "^8.25.3"
   },
   "dependencies": {
     "@testing-library/dom": "^10.4.0"
