@@ -1,10 +1,8 @@
-# Testplane testing library
-
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/logo-dark.svg" width="300">
-        <source media="(prefers-color-scheme: light)" srcset="./docs/images/logo-light.svg" width="300">
-        <img alt="testplane testing library logo" src="./docs/images/logo-light.svg" width="300">
+        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/logo-light.svg" width="300">
+        <source media="(prefers-color-scheme: light)" srcset="./docs/images/logo-dark.svg" width="300">
+        <img alt="testplane testing library logo" src="./docs/images/logo-dark.svg" width="300">
     </picture>
 </p>
 
