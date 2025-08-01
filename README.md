@@ -1,11 +1,24 @@
 # Testplane testing library
 
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/logo-dark.svg" width="300">
+        <source media="(prefers-color-scheme: light)" srcset="./docs/images/logo-light.svg" width="300">
+        <img alt="testplane testing library logo" src="./docs/images/logo-light.svg" width="300">
+    </picture>
+</p>
+
+<p align="center">
+    <a href="https://t.me/testplane"><img src="https://img.shields.io/badge/community-chat-blue?logo=telegram" alt="Community Chat"></a>
+</p>
+
+
 ## Introduction
 [Testing-library](https://testing-library.com/) is a collection of tools for testing web application user interfaces, focused on creating reliable and maintainable tests by emphasizing user behavior. The main advantage of `testing-library` is its focus on interaction with interface elements. And in testplane, you can use the element search methods provided by the `testing-library` itself.
 
-## Connection
+## Installation
 
-1. Install the npm package `@testplane/testing-library`
+1. Install the npm package `@testplane/testing-library`:
 ```shell
 npm i -D @testplane/testing-library
 ```
@@ -22,6 +35,18 @@ module.exports = {
 
     // other Testplane settings...
 };
+```
+
+3. ALso, if you are using typescript add to `tsconfig.json` -> `compilerOptions` -> `types` this line `@testplane/testing-library`
+
+```json
+{
+    "compilerOptions": {
+        "types": [
+            "@testplane/testing-library"
+        ]
+    }
+}
 ```
 
 ## Usage
@@ -52,3 +77,7 @@ it("example", async ({ browser }) => {
     await newRepoButton.click();
 });
 ```
+
+Disclaimer:
+All testing-library selectors return a promise and cannot be chained (like `browser.getByText().click()` — this is not possible).
+Each testing-library selector must be awaited before performing any actions on it.

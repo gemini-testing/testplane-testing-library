@@ -83,5 +83,6 @@ declare global {
     namespace WebdriverIO {
         // eslint-disable-next-line @typescript-eslint/no-empty-object-type
         interface Element extends TestplaneQueries {}
+        interface Browser extends TestplaneQueries, TestplaneQueriesChainable {}
     }
 }

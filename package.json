@@ -6,6 +6,7 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
+    "prepack": "npm run build",
     "clean": "rm -rf build",
     "watch": "tsc --watch",
     "reformat": "prettier --write .",
@@ -20,7 +21,7 @@
   "license": "MIT",
   "homepage": "https://github.com/gemini-testing/testplane-testing-library#readme",
   "peerDependencies": {
-    "testplane": "^8.29.6"
+    "testplane": "^8.0.0"
   },
   "dependencies": {
     "@testing-library/dom": "^10.4.0"
@@ -31,7 +32,6 @@
     "eslint": "^9.26.0",
     "globals": "^16.1.0",
     "prettier": "^3.5.3",
-    "serve-handler": "^6.1.6",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.0"
   }

@@ -35,8 +35,11 @@ declare global {
 }
 
 const DOM_TESTING_LIBRARY_UMD_PATH = path.resolve(
-    "./node_modules/@testplane/testing-library/node_modules/@testing-library/dom/dist/@testing-library/dom.umd.js",
+    __dirname,
+    "../",
+    "./node_modules/@testing-library/dom/dist/@testing-library/dom.umd.js",
 );
+
 const DOM_TESTING_LIBRARY_UMD = fs.readFileSync(DOM_TESTING_LIBRARY_UMD_PATH).toString().replace("define.amd", "false");
 
 let _config: Partial<Config>;
