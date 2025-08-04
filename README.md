@@ -14,7 +14,6 @@
     <a href="https://t.me/testplane"><img src="https://img.shields.io/badge/community-chat-blue?logo=telegram" alt="Community Chat"></a>
 </p>
 
-
 ## Introduction
 [Testing-library](https://testing-library.com/) is a collection of tools for testing web application user interfaces, focused on creating reliable and maintainable tests by emphasizing user behavior. The main advantage of `testing-library` is its focus on interaction with interface elements. And in testplane, you can use the element search methods provided by the `testing-library` itself.
 
