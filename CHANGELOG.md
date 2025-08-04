@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.0...v1.0.1) (2025-08-04)
+
+
+### Bug Fixes
+
+* **testing-library:** test release again ([#5](https://github.com/gemini-testing/testplane-testing-library/issues/5)) ([5c61ec4](https://github.com/gemini-testing/testplane-testing-library/commit/5c61ec478cc0df8e950f142a428504cc781940a1))
+
 ## 1.0.0 (2025-08-04)
 
 
