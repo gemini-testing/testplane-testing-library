@@ -40,7 +40,12 @@ const DOM_TESTING_LIBRARY_UMD_PATH = path.join(
     "dist/@testing-library/dom.umd.js",
 );
 
-const DOM_TESTING_LIBRARY_UMD = fs.readFileSync(DOM_TESTING_LIBRARY_UMD_PATH).toString().replace("define.amd", "false");
+const DOM_TESTING_LIBRARY_UMD = fs
+    .readFileSync(DOM_TESTING_LIBRARY_UMD_PATH)
+    .toString()
+    .replace("define.amd", "false")
+    // exports and module are defined in component tests. Without this patch, testing-library won't init
+    .replace("typeof exports === 'object' && typeof module !== 'undefined'", "false");
 
 let _config: Partial<Config>;
 
@@ -90,7 +95,7 @@ async function injectDOMTestingLibrary(container: WebdriverIO.Element) {
                     );
                 }
             } else {
-                eval(library);
+                window.eval(library);
             }
         }, DOM_TESTING_LIBRARY_UMD);
     }
