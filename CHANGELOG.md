@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.1...v1.0.2) (2025-10-14)
+
+
+### Bug Fixes
+
+* patch testing-library code to work in component tests ([#7](https://github.com/gemini-testing/testplane-testing-library/issues/7)) ([72e7e36](https://github.com/gemini-testing/testplane-testing-library/commit/72e7e3676fa2d04bae51a5865a41ce958488b6bc))
+
 ## [1.0.1](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.0...v1.0.1) (2025-08-04)
 
 
