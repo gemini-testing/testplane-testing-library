@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.4...v1.0.5) (2026-05-15)
+
+
+### Bug Fixes
+
+* bump node version to 24 in publish flow ([#13](https://github.com/gemini-testing/testplane-testing-library/issues/13)) ([e523b15](https://github.com/gemini-testing/testplane-testing-library/commit/e523b15470faf31f2eae7207884d8c75ed218ab0))
+
 ## [1.0.4](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.3...v1.0.4) (2026-05-15)
 
 
