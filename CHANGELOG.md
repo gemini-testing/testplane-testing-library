@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.3...v1.0.4) (2026-05-15)
+
+
+### Bug Fixes
+
+* fix publish flow ([#11](https://github.com/gemini-testing/testplane-testing-library/issues/11)) ([e2c9606](https://github.com/gemini-testing/testplane-testing-library/commit/e2c96064a90074c211ec14591b05390da1db6bbe))
+
 ## [1.0.3](https://github.com/gemini-testing/testplane-testing-library/compare/v1.0.2...v1.0.3) (2026-05-15)
 
 
